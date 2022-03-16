@@ -216,7 +216,7 @@ def init_dist(backend='nccl', **kwargs):
     dist.init_process_group(backend=backend, **kwargs)
 
 if __name__ == '__main__':
-    project = 'RefVSR_CVPR2022_test'
+    project = 'RefVSR_CVPR2022'
     mode = 'RefVSR'
 
     from configs.config import set_data_path
